@@ -1,0 +1,1378 @@
+h1 {
+   text-align: center;
+  color: black;
+  font-weight: 900;
+  letter-spacing: 5px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white; 
+  font-weight: 800;
+} 
+
+
+h4 {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.order h2 {
+  color:white;
+}
+
+#miser {
+bacgorund-color: #005594;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid black;
+  color: white;
+}
+
+
+
+iframe {
+margin: auto;
+display: flex;
+}
+.notifer {
+width: 100%;
+background-color: #BD0017;
+color:white;
+font-weight: bold;
+border: 3px solid yellow;
+opacity: 80%;
+}
+
+.notifer h3 {
+font-weight: 800;
+}
+
+.column {
+  width: 18%;
+  padding: 25px 0px;
+  color: white;
+}
+
+.images img {
+  display: block;
+  /* height: 100px; */
+  width: 50px;
+  height: 100px;
+  width: auto;
+  margin: 20px;
+  border: 5px solid white;
+}
+
+.songs p {
+  font-size: 22px;
+  height: 100px;
+  font-weight: bold;
+  margin: 20px;
+  font-weight: 950;
+  color: white;
+}
+
+.artists p {
+  font-size: 18px;
+  height: 100px;
+  margin: 20px;
+  font-weight: 550;
+  font-style: oblique;
+  color: white;
+
+}
+
+.lengths p {
+  font-size: 20px;
+  height: 100px;
+  margin: 20px;
+  text-align: right;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+/* a {
+letter-spacing: 3px;
+background: -webkit-linear-gradient(#eeeeee, #333333);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+} */
+
+a:hover {
+  color: white;
+}
+
+.links a {
+  display: block;
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  margin: 20px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#totalL {
+  letter-spacing: 5px;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: white;
+  margin: 15px;
+  color: black;
+  font-size: 30px;
+  margin: 15px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form {
+  width: 75%;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
+  justify-content: center;
+  display: block;
+}
+
+.form p {
+  color: black;
+  font-size: 25px;
+  font-style: obilque;
+  margin: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 7px;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 7px;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.delete {
+  background-color: red;
+  text-align: center;
+/*   display: block; */
+/*   margin-left: auto;
+  margin-right: auto; */
+}
+
+body {
+/*   background-image: url("https://wallpapercave.com/wp/96sqlm9.jpg"); */
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: white;
+  color: black;
+  background-size: auto;
+}
+
+img {
+width: 150px;
+height: 150px; 
+}
+
+.StockSheet {
+border: 10px;
+margin: 10px;
+}
+
+.photo {
+/* border: 2px solid white; */
+  display: inline-block;
+}
+
+.stats {
+border: 5px solid black;
+color: black;
+font-weight: 800;
+letter-spacing: 1px;
+font-size: 10px;
+display:Inline-block;
+}
+
+.stats p {
+display: Inline-block;
+border: 5px solid black;
+padding: 3px;
+margin: 5px;
+font-size: 15px;
+}
+
+.graph {
+border: 5px solid none;
+color: black;
+font-weight: 800;
+letter-spacing: 5px;
+font-size: 40px;
+align-items: center;
+}
+
+.photo div {
+border: 2px solid white;
+  text-align: center;
+  display: inline-block;
+}
+
+div {
+  text-align: center;
+}
+
+#compName {
+  color: black;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.tocker {
+  color: gold;
+  font-weight: 800;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  border: gold solid 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.logoC {
+height: 125px; 
+width: 750px; 
+}
+
+#price {
+  color: green;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+#prices {
+  color: red;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #212121;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+#navbarrr h1 {
+font-family: Helvetica;
+font-size: 80px;
+/* font-style: oblique; */
+color: white;
+/* padding: 0px; */
+padding: 20px 10px 20px 10px;
+text-decoration: none;
+}
+
+
+#navbarrr {
+    display: flex;
+    justify-content: space-around;
+    background-color: #005594;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.
+
+#navbar h1 {
+font-family: Helvetica;
+font-size: 50px;
+/* font-style: oblique; */
+color: white;
+/* padding: 0px; */
+padding: 20px 10px 20px 10px;
+text-decoration: none;
+}
+
+#navbarr {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3E50B4;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+#lol {
+background-color: #212121;
+}
+
+#navbarr h1 {
+font-family: Helvetica;
+font-size: 50px;
+/* font-style: oblique; */
+color: white;
+/* padding: 0px; */
+padding: 20px 10px 20px 10px;
+text-decoration: none;
+}
+
+.navpage {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    padding: 40px 10px 40px 10px;
+    text-decoration: none;
+}
+
+.prompt {
+border: 5px solid black;
+margin: 10px;
+display: inline-block;
+float: left;
+}
+
+.prompt1 {
+border: 5px solid black;
+margin: 0 auto;
+padding: 10px;
+width: 50%;
+display: block;
+/* justify-content: center; */
+text-align: center;
+}
+
+.sector {
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 20px;
+  margin: 30px;
+  border: 5px solid black;
+}
+
+.slogan {
+border: 5px solid rgb(0,92,220);
+color: rgb(0,92,220);
+text-align: center;
+margin: 0px;
+letter-spacing: -1px;
+}
+
+ 
+.custG {
+border: 5px solid rgb(0,92,220);
+text-align: center;
+margin-top: 100px;
+letter-spacing: -1px;
+text-align: left;
+background: white;
+color: white;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: white; 
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color:  rgb(0,92,220);
+}
+
+.custG  {
+font-size: 40px;
+font-weight: 900;
+margin: 10px;
+} 
+
+.landP h2 {
+font-size: 40px;
+font-weight: 900;
+}
+
+.landP {
+border: 5px solid rgb(0,92,220);
+color: rgb(0,92,220);
+text-align: center;
+margin-top: 50px;
+letter-spacing: -1px;
+background: rgb(0,92,220);
+color: white;
+font-size: 20px;
+}
+
+.bankScroll {
+background: rgb(0,92,220);
+color: white;
+font-size: 20px;
+}
+
+
+#bankScroll {
+background: rgb(0,92,220);
+color: white;
+font-size: 20px;
+}
+
+.bankHeader {
+    background-color: rgb(0,92,189);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.bankHeader h1 {
+font-size: 50px;
+/* font-style: oblique; */
+color: white;
+/* padding: 0px; */
+padding: 20px 10px 20px 10px;
+text-decoration: none;
+}
+
+th {
+text-align: center;
+padding: 10px;
+border: 2px solid black;
+font-size: 20px;
+font-weight: 800;
+}
+
+td {
+text-align: center;
+padding: 10px;
+border: 2px solid black;
+font-size: 15px;
+font-weight: 800;
+}
+
+th img{
+width: 100px;
+height: 100px;
+}
+
+td img{
+width: 100px;
+height: 100px;
+}
+
+
+/* span {
+  padding-left: 15px;
+} */
+
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+.loginPage h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+.loginPage label{  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;   
+}  
+
+.loginPage span{  
+    color: white;  
+    font-size: 17px;  
+}  
+
+.loginPage a{  
+    float: right;  
+    background-color: grey;  
+}  
+
+.loginPage div {
+display: flex;
+justify-content: center; 
+margin: 15px; 
+}
+
+.loginPage form {
+margin: 25px;
+}
+
+#banklogo {
+text-align:center;
+width: 325px;
+height: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#bigHeader {
+display: block;
+}
+
+.wip {
+position: fixed;
+  width: 100%;
+  margin: 0px;
+  float:top;
+  display: flex;
+/*   justify-content: center; */
+  border-top: 30px solid black;
+  font-size: 20px;
+/* background-image: url("https://back.files.design/photo/5885/600x219.png"); */
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: transparent;
+  color: black;
+}
+
+#piechart {
+display:flex;
+margin: auto;
+justify-content: center;
+}
+h4 {
+color: black;
+margin: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white; 
+}
+
+.time {
+float: left;
+margin-right: 420px;
+}
+
+.notch {
+/* position: absolute; */
+background-color: black;
+  width: 600px;
+  height: 50px;
+  border-radius: 0px 0px 45px 45px;
+  margin: 0 auto;
+  left: 50%;
+/*   transform: translateX(-50%); */
+  transform: translateY(-50%);
+}
+
+.time {
+margin-left: 30px;
+}
+
+#chart_div {
+display: block;
+margin: 0 auto;
+}
+
+atm {
+display:inline-block;
+}
+
+#kcapp {
+background-color: rgb(0,92,189); 
+}
+
+.options {
+display: flex;
+flex-direction: column;
+item_align: center;
+justify-content: center;
+margin: 100px;
+}
+
+.option {
+justify-content: center;
+margin: 20px;
+length: 200px;
+/* width: 300px; */
+    font-size: 40px;
+   text-align: center;
+  color: black;
+  font-weight: 900;
+  letter-spacing: 5px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white; 
+}
+
+.option:hover {
+    font-size: 40px;
+   text-align: center;
+  border: 5px solid black;
+  background-color: white;
+  color: black;
+  font-weight: 900;
+  letter-spacing: 5px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; 
+} 
+
+.atm {
+border: 10px solid rgb(0,92,189);
+margin-top: 50px;
+margin-left: 37.5%;
+display: inline-block;
+justify-content: center;
+item-align: center;
+}
+
+.newsy div {
+background-color: red;
+}
+
+.atmbs {
+background-color: rgb(0,92,189);
+}
+
+.att {
+margin: 10px;
+color: white;
+}
+
+.atmbsb {
+  display: flex;
+  flex-direction: column;
+item_align: center;
+justify-content: center;
+  border: 10px solid red;
+background-color: rgb(0,92,189);
+}
+
+.edge {
+/* height: 100%; */
+/* width: 100%; */
+/* border: 50px solid black; */
+/* border: 140px solid black; */
+}
+
+.numero {
+margin: 10px;
+color: white;
+  background-color: grey;
+}
+
+.sub_div {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  border: 0px solid black;
+  background-color: black;
+  padding: 5px;
+  float: bottom;
+}
+
+.screen {
+/* padding: 500px; */
+positon: relative;
+}
+
+.home {
+width: 90px;
+height: 90px;
+border: none;
+padding: 10px;
+}
+
+.homeb{
+border: none;
+}
+
+.approw {
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+}
+
+.app {
+display: flex;
+flex-direction: row;
+width: 225px;
+height: 225px;
+border: 3px solid black;
+padding: 10px;
+background-color: blue;
+margin: 50px;
+justify-content: center;
+border-radius: 15px;
+object-fit: fill;
+background-image: url("https://static.thenounproject.com/png/3735581-200.png");
+text-align: bottom;
+box-shadow: 5px 10px black;
+
+}
+
+.app:hover {
+opacity:75%;
+}
+
+.app-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#KC {
+background-image: url("https://go.distance.ncsu.edu/gd203/wp-content/uploads/2020/04/704a1e534e8dc0138eee3ded449555d5-860x860.png");
+background-size: 220px;
+background-repeat: none;
+object-fit: cover;
+background-color: white;
+color:white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #117acb; 
+font-size: 29px;
+font-weight: 800;
+}
+
+#mcdiv {
+background-image: url("https://www.gran-turismo.com/gtsport/decal/7277834595067789840_1.png");
+background-size: 220px;
+background-repeat: none;
+object-fit: cover;
+background-color: white;
+color:red;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fbc314; 
+font-size: 29px;
+font-weight: 800;
+}
+
+#mcash {
+background-image: url("https://cdn2.iconfinder.com/data/icons/creative-15/64/cashier-fast-food-order-512.png");
+background-size: 220px;
+background-repeat: none;
+object-fit: cover;
+background-color: white;
+color:red;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fbc314; 
+font-size: 29px;
+font-weight: 800;
+}
+
+.jobs {
+display: flex;
+margin: auto;
+justify-content: center;
+item-align: center;
+}
+
+#Robin {
+background-image: url("https://theindieaccord.com/wp-content/uploads/2020/12/NewButler.png");
+background-size: 220px;
+background-repeat: none;
+object-fit: cover;
+background-color: white;
+color:white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; 
+font-size: 23px;
+  font-weight: 800;
+}
+
+.logoH {
+filter: invert(100%);
+}
+
+.logoP {
+filter: invert(100%);
+}
+
+#port {
+font-weight: 800;
+}
+
+#spacem {
+margin: 10px;
+}
+
+#Game {
+/* mcdelivery + mcroanld cashier */
+  background-repeat: none;
+background-image: url("https://i.pinimg.com/originals/a8/39/e2/a839e213eebb9aad29161845520c0f08.png");
+background-size: 220px;
+background-color: red;
+object-fit: cover;
+color:#fbc314;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #c40005; 
+font-size: 29px;
+  font-weight: 800;
+}
+
+#Settings {
+background-image: url("https://winaero.com/blog/wp-content/uploads/2020/09/Windows-10-Settings-gear-icon-colorful-256-big.png");
+background-size: 220px;
+background-repeat: none;
+object-fit: cover;
+background-color: white;
+color:white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; 
+font-size: 29px;
+  font-weight: 800;
+}
+
+#NSBN {
+background-image: url("https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1488264401/fkgwfnykfayji0pt8keu.png");
+background-size: 220px;
+background-repeat: none;
+object-fit: cover;
+background-color: white;
+color:white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; 
+font-size: 23px;
+  font-weight: 800;
+}
+
+#Clock {
+background-image: url("https://apprecs.org/gp/images/app-icons/300/1b/com.philliphsu.clock2.jpg");
+background-size: 220px;
+background-repeat: none;
+object-fit: cover;
+background-color: white;
+color:white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; 
+font-size: 23px;
+  font-weight: 800;
+}
+
+.apps {
+justify-content: center;
+display: inline-block;
+}
+
+.apple img {
+object-fit: cover;
+  width: 1000px;
+  height:1000px;
+}
+
+.camera {
+height: 50px;
+width: 50px;
+}
+
+.HH {
+object-fit: cover;
+background-image: url("https://images.hdqwalls.com/download/minimalist-mountains-black-and-white-ap-2560x1080.jpg");
+background-repeat: no-repeat;
+background-size: auto;
+}
+
+
+.help {
+padding: 45px;
+/*   margin: 30px; */
+  background-color: #212121;
+}
+
+.helpbttm {
+padding: 60px;
+/*   margin: 30px; */
+  background-color: white;
+}
+
+.homeS {
+background-color: #f2f2f2;
+}
+
+.homeS {
+background-color: #f2f2f2;
+}
+
+.homeS {
+background-color: #f2f2f2;
+}
+
+.homeS {
+background-color: #f2f2f2;
+}
+
+.homeS {
+background-color: #f2f2f2;
+}
+
+.homeS {
+background-color: #f2f2f2;
+}
+
+.homeS {
+background-color: #f2f2f2;
+}
+
+
+body {
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.custPhoto {
+height: 300px;
+width: 300px;
+filter: invert(1);
+float: right;
+/* margin-left: 20px; */
+/* display:flex; */
+/* border: 5px solid blue; */
+/* margin:auto; */
+/* float:right; */
+/* margin-top: 10%; */
+/* -ms-transform: translateY(75%); */
+/* transform: translateY(75%);
+transform: translateX(90%); */
+}
+
+.orderDiv {
+border: 5px solid yellow;
+background-color: white;
+text-align: center;
+display:flex;
+margin:auto;
+top: 50%;
+/* -ms-transform: translateY(60%);
+transform: translateY(60%); */
+background-color:rgba(0, 0, 0, 0.75);
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: white; 
+font-weight: 800px;
+font-size: 50px;
+padding: 10px;
+}
+
+
+.orderDiv  {
+font-weight: 800px;
+-webkit-text-stroke-width: 0.5px;
+
+font-size: 30px;
+}
+
+.sma {
+font-weight: 800;
+  -webkit-text-stroke-width: 0.5px;
+
+color: #0047AB;
+}
+.lar {
+font-weight: 800;
+  -webkit-text-stroke-width: 0.5px;
+
+color: #0047AB;
+}
+
+.xtra {
+font-weight: 800;
+color: #0047AB;
+}
+
+.headline {
+font-weight: 800;
+width: 50%;
+border: 10px solid #005594;
+padding: 5px;
+}
+
+.story {
+display: flex;
+flex-direction: column;
+}
+
+.about {
+background-color: #005594;
+border: 10px solid #005594;
+padding: 5px;
+color: white;
+}
+
+.subheadline {
+font-size: 20px;
+font-weight: 800;
+}
+
+.ish {
+font-style: italic;
+}
+
+.stories {
+display: flex;
+}
+
+.enemy {
+  font-weight: 900;
+  color: gold;
+  font-size: 40px;
+  -webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: #005594;
+}
+
+.mshake {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: yellow;
+}
+
+.beefBurg {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.imposs {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.dsbeef {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.nugget {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.fries {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.ribBurg {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.bacon {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.fillet {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.cajun {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.coffee {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.water {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.soda {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.chic {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.bacon {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.wings {
+color: #DA291C;
+font-weight: bold;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: yellow;
+}
+
+.extras {
+font-style: italic;
+font-weight: 800;
+color: white;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: blue;
+}
+
+#stupid {
+opacity: 0%;
+}
+
+.ASA  {
+background-color: black;
+background-image: url("https://cdn.glitch.global/a3f8d675-462f-49f9-991d-46b2424ea5db/3b077bbfbf534725d216bc2ad895f7e8.png?v=1654100279065");
+background-repeat: no-repeat;
+background-size: 2100px;
+object-fit:cover;
+}
+
+
+.orderPic {
+height: 50px;
+width: 75px;
+margin:0;
+}
+
+.MCitem:hover {
+opacity: 75%;
+}
+
+.MCitem {
+margin:0;
+font-weight: 800px;
+font-size: 30px;
+}
+
+#helper {
+background-color: black;
+}
+
+.stuff {
+border: 5px solid yellow;
+/* background-color: white; */
+text-align: center;
+display:flex;
+margin:auto;
+top: 50%;
+/* -ms-transform: translateY(140%);
+transform: translateY(140%); */
+justify-content: space-around;
+/* background-color:rgba(0, 0, 0, 0.75);
+ */
+color: white;
+background-color: #BD0017;
+margin-bottom: 10px;
+}
+
+.moala {
+/* margin: auto; */
+display: inline-block;
+justify-content: center;
+}
+
+.bill {
+background-color: green;
+}
+
+.scoin {
+background-color: grey;
+}
+
+.ccoin {
+background-color: #68433F;
+}
+
+.resv {
+background-color: red;
+}
+
+.theMonies {
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.moneyButton {
+margin: 5px; 
+justify-content: space-around;
+padding: 2.5px 5px;
+}
+
+.menu {
+position:relative;
+display:inline-block;
+font-size: 50px;
+}
+
+.menu-content h1 {
+color: yellow;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: white;
+}
+
+.menu-content {
+display: none;
+position: absolute;
+font-size: 20px;
+color: #DA291C;
+-webkit-text-stroke-width: 0.8px;
+-webkit-text-stroke-color: white;
+}
+
+.menu-content p {
+font-weight: 900;
+}
+
+
+
+.menu:hover .menu-content {
+max-height: 75px;
+display: block;
+overflow: auto;
+}
+
+#lose {
+  font-size: 100px;
+    -webkit-text-stroke-color: red; 
+}
+
+.btitle {
+font-size: 40px;
+}
+
+.bntitle {
+font-size: 50px;
+color: white;
+-webkit-text-stroke-color: red; 
+-webkit-text-stroke-width: 3px;
+font-weight: 900px;
+}
+
+.fulltitle {
+display: flex;
+margin: auto;
+flex-direction: column;
+/* border: 20px solid red; */
+margin: 0;
+}
+
+.bigloser {
+    background: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    animation: fade-in 10s linear;
+* {
+    color: #ff0000;
+    font-family: OptimusPrinceps, sans-serif;
+    letter-spacing: 5px;
+    font-size: 8em;
+    font-weight: 400;
+    animation: fade-in 10s linear, text-zoom 5s linear;
+  }
+}
+
+#continueB {
+font-size: 50px;
+margin: auto;
+display: flex;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+
+
+@keyframes text-zoom {
+    0% { font-size: 5em; }
+    25% { font-size: 6em; }
+    50% { font-size: 7em; }
+    75% { font-size: 8em; }
+    100% { font-size: 8em; }
+}
+  
+#cr {
+  background-color:rgba(0, 0, 0, 0.75);
+  color: black;
+}
+
+.mcText {
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: white;
+color: #DA291C;
+}
+
+#mcdd {
+color: yellow;
+-webkit-text-stroke-color: none;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <!-- MAKE A SCROLLY THINGY ▼-->
+
+<html>
+  <head>
+    <title>PlayList Project!</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!-- Your CSS  ▼-->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
+  
+<script async>
+var audio = new Audio('https://cdn.glitch.global/a3f8d675-462f-49f9-991d-46b2424ea5db/yt5s.com%20-%20Eddie%20Murphy%20-%20Party%20All%20The%20Time%20(Intsrumental)%20(128%20kbps).mp3?v=1654836923768');
+audio.play();
+</script>
+  
+  <body style="background:url('https://i.ibb.co/JjCVd0r/output-onlinegiftools.gif'); background-repeat: none;
+background-size: cover;">
+
+        <div id="navbar">
+        <h1>
+        ASAWS: ROAD TO BANKRUPTCY 
+        </h1>
+        </div>
+    
+    <div class="options">
+    <button class="option" id="start">
+    START GAME
+    </button>
+    
+    <button  class="option">
+    OPTIONS
+    </button>
+    
+    <button  class="option">
+    PROGRESS & ACHIEVEMENTS 
+    </button>
+    
+    <button  class="option" id="credits">
+      CREDITS
+    </button>
+      
+    <button  class="option" id="reload">
+      RELOAD
+    </button>
+    </div>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    let today = "Mon"
+    let todaysHigh = 20;
+    let todaysLow = 30;
+    let todaysClose = 38;
+    let todaysOpen = 45;
+    
+    var data = google.visualization.arrayToDataTable([
+      [today, todaysHigh, todaysLow, todaysClose, todaysOpen],
+      ['Tue', 0, 0, 0, 0],
+      ['Wed', 0, 0, 0, 0],
+      ['Thu', 0, 0, 0, 0],
+      ['Fri', 0, 0, 0, 0]
+      // Treat first row as data as well.
+    ], true);
+
+    var options = {
+      legend:'none'
+    };
+
+    var chart = new google.visualization.CandlestickChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+  }
+    </script>
+  
+    
+    
+    
+    <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Your Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

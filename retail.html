@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+    <!-- MAKE A SCROLLY THINGY ▼-->
+
+<html>
+  <head>
+    <title>PlayList Project!</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!-- Your CSS  ▼-->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wip"> <div class="notch"> <img class = "camera" src='https://pngimg.com/uploads/camera_lens/camera_lens_PNG2.png'></div>  </div>
+          <div class = "help"> </div>
+  
+        <div id="navbar">
+          <a href="index.html" class="nav"> <h1> ASSE </h1> </a>
+             <a href="stocks.html" class="navpage nav" id="contact_pageLink"> TRADING </a>
+             <a href="nsbn.html" class="navpage nav" id="project_pageLink"> NSBN </a>
+             <a href="portfolio.html" class="navpage nav" id="misc_pageLink">PORTFOLIO</a>
+             <a href="crypto.html" class="navpage nav" id="misc_pageLink">ACCOUNT SUMMARY</a>
+        </div>
+    
+      <marquee class="stockScroll" loop="-1" behavior="scroll" direction="left" scrollamount="15" >HTML scrolling text... </marquee>
+
+    
+    
+    
+<div class="prompt">
+  <div class="StockSheet">
+         <div class="photo"></div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png">
+    <div id="name" class="photo">
+        MACROSOFT CORPORATION
+     </div>
+     <div id="name1" class="photo">
+        $MS 
+     </div>
+    <div id="price" class="photo">
+    ▲ 288.45
+    </div>
+      <div class="graph">
+        IMAGINE A GRAPH HERE
+      </div>
+      <div class="stats">
+        <p>
+        ATTRIBUTE 1: TEST
+        </p>
+        <p>
+        ATTRIBUTE 2: TEST
+        </p>
+        <p>
+        ATTRIBUTE 3: TEST
+        </p>
+        <p>     
+        ATTRIBUTE 4: TEST
+        </p>
+        <p>
+        ATTRIBUTE 5: TEST
+        </p>
+      </div>
+  </div>
+</div>
+  
+<!-- <div class="prompt">
+  <div class="StockSheet">
+         <div class="photo"></div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYO_OjYcEE-8gMEvDcrkQC4SNzyMRxZQaj5g&usqp=CAU"> 
+    <div id="name" class="photo">
+        SAMSONY®  
+     </div>
+      <div id="name1" class="photo">
+        $SASY 
+     </div>
+    <div id="prices" class="photo tester">
+    ▼ 169.71
+    </div>
+      <div class="graph">
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+      </div>
+      <div class="stats">
+  <table>
+  <tr>
+    <th>Country Of Origin</th> 
+    <th>All-time High</th>
+    <th>All-time Low</th>
+    <th>Change ($)</th>
+    <th>Change (%)</th>
+    <th>Market Cap</th>
+    <th>Revenue</th>
+    <th>Operating Income</th>
+    <th>Debt</th>
+    <th>Cash-On-Hand</th>
+  </tr>
+  <tr>
+    <td class="CCO"> <img src="https://images.emojiterra.com/twitter/512px/1f1fa-1f1f8.png"> </td>
+    <td class="ATHP">304</td>
+    <td class="ATLP">171</td>
+    <td class="changeMoney">+31</td>
+    <td class="changePercent">13%</td>
+    <td class="marketCap">2.27T</td>
+    <td class="revenue">103B</td>
+    <td class="OPIncome">21B</td>
+    <td class="Debt">80.2B</td>
+    <td class="COH">76.5B</td>
+  </tr>
+    </table>
+      </div>
+  </div>
+</div> -->
+
+    
+<!--  <div class="form">
+      <p>Add a new song:</p>
+      <input placeholder="Artist Name" class="artist" />
+      <input placeholder="Song Title" class="title" />
+      <input placeholder="Image URL" class="image" />
+      <input placeholder="Song Length" class="length" />
+      <input placeholder="Song URL" class="link" />
+      <button class="add">+ Add</button>
+      <button id="shuffle">🔀 Shuffle</button>
+</div> -->
+    
+    
+<!--     <div>
+    <button class="delete">🗑️ Delete Recent Song</button>
+    <p id="totalL">Playlist Length:</p>
+    </div>
+ -->
+<!--
+    <div class="display">
+      <div class="column images"></div>
+      <div class="column songs"></div>
+      <div class="column artists"></div>
+      <div class="column lengths"></div>
+      <div class="column links"></div>
+    </div> -->
+            <div class = "helpbttm"> </div>
+
+<div class="sub_div">
+<button class='homeb'>
+<img class="home" src="https://openclipart.org/image/800px/88015">
+</button>
+</div>
+    
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    let today = "Mon"
+    let todaysHigh = 20;
+    let todaysLow = 30;
+    let todaysClose = 38;
+    let todaysOpen = 45;
+    
+    var data = google.visualization.arrayToDataTable([
+      [today, todaysHigh, todaysLow, todaysClose, todaysOpen],
+      ['Tue', 0, 0, 0, 0],
+      ['Wed', 0, 0, 0, 0],
+      ['Thu', 0, 0, 0, 0],
+      ['Fri', 0, 0, 0, 0]
+      // Treat first row as data as well.
+    ], true);
+
+    var options = {
+      legend:'none'
+    };
+
+    var chart = new google.visualization.CandlestickChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+  }
+    </script>
+  
+    
+    
+    
+    <!-- jQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Your Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

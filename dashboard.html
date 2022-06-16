@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+    <!-- MAKE A SCROLLY THINGY ▼-->
+
+<html>
+  <head>
+    <title>PlayList Project!</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!-- Your CSS  ▼-->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wip"> <div class="notch"> <img class = "camera" src="https://pngimg.com/uploads/camera_lens/camera_lens_PNG2.png"></div>  </div>
+        <div class = "help"> </div>
+        <div id="navbarr">
+             <a href="index.html" class="nav"> <h1> <img class="logoH" src="https://freepngimg.com/thumb/symbol/89661-and-clock-symbol-icons-computer-black-line.png"> TIME AND DATE </h1> </a>
+        </div>
+
+    
+  <div class="timebar_day">
+  <div class="time_1"></div>
+  <div class="time_2"></div>
+  <div class="time_3"></div>  
+  </div>
+                     
+  <h1>
+  MIDDAY - SESSION 2 OF 3
+  </h1>
+  <div>
+    
+  <div class="timebar_week">
+  <div class="day_1"></div>
+  <div class="day_2"></div>
+  <div class="day_3"></div> 
+  <div class="day_4"></div>  
+  <div class="day_5"></div>  
+  </div>
+    
+    <div>
+          <div>
+          </div>
+    </div>
+    
+    <div>
+          <div>
+          </div>
+    </div>
+    
+    <div>
+          <div>
+          </div>
+    </div>
+    
+    <div>
+          <div>
+          </div>
+    </div>
+    
+    <div>
+          <div>
+          </div>
+    </div>
+    
+    <div>
+          <div>
+          </div>
+    </div>
+    
+  </div>
+    <h2>
+    </h2>
+  <h1>
+    MARKETS CLOSE AT 4PM
+  </h1>
+      <h1>
+       4 DAYS REMAIN
+    </h1>
+  
+  <button class="add">ADVANCE TO NEXT TRADING SESSION</button>
+      <button class="add">ADVANCE TO NEXT DAY</button>
+
+
+    
+<!--  <div class="form">
+      <p>Add a new song:</p>
+      <input placeholder="Artist Name" class="artist" />
+      <input placeholder="Song Title" class="title" />
+      <input placeholder="Image URL" class="image" />
+      <input placeholder="Song Length" class="length" />
+      <input placeholder="Song URL" class="link" />
+      <button class="add">+ Add</button>
+      <button id="shuffle">🔀 Shuffle</button>
+</div> -->
+    
+    
+<!--     <div>
+    <button class="delete">🗑️ Delete Recent Song</button>
+    <p id="totalL">Playlist Length:</p>
+    </div>
+ -->
+<!--
+    <div class="display">
+      <div class="column images"></div>
+      <div class="column songs"></div>
+      <div class="column artists"></div>
+      <div class="column lengths"></div>
+      <div class="column links"></div>
+    </div> -->
+            <div class = "helpbttm"> </div>
+    <div class="sub_div">
+<button class='homeb'>
+<img class="home" src="https://openclipart.org/image/800px/88015">
+</button>
+    </div>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    let today = "Mon"
+    let todaysHigh = 20;
+    let todaysLow = 30;
+    let todaysClose = 38;
+    let todaysOpen = 45;
+    
+    var data = google.visualization.arrayToDataTable([
+      [today, todaysHigh, todaysLow, todaysClose, todaysOpen],
+      ['Tue', 0, 0, 0, 0],
+      ['Wed', 0, 0, 0, 0],
+      ['Thu', 0, 0, 0, 0],
+      ['Fri', 0, 0, 0, 0]
+      // Treat first row as data as well.
+    ], true);
+
+    var options = {
+      legend:'none'
+    };
+
+    var chart = new google.visualization.CandlestickChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+  }
+    </script>
+  
+    
+    
+    
+    <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Your Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
